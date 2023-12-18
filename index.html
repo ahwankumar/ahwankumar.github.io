@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahwan Kumar's GitHub Page</title>
+    <title>Ahwan Kumar's Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
         header {
-            background-color: #333;
+            background-color: #007bff;
             color: #fff;
             text-align: center;
             padding: 1em 0;
@@ -26,6 +26,7 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
 
         h1, h2 {
@@ -43,23 +44,59 @@
             background-color: #333;
             color: #fff;
         }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-links img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Ahwan Kumar's GitHub Page</h1>
+        <h1>Ahwan Kumar's Portfolio</h1>
     </header>
 
     <section>
         <h2>About Me</h2>
-        <p>Welcome to my GitHub Page! I'm Ahwan Kumar, and this is a simple page to showcase my projects and contributions.</p>
+        <p>Welcome to my portfolio! I'm Ahwan Kumar, and this is a space where I showcase my projects and contributions.</p>
     </section>
 
     <section>
         <h2>Projects</h2>
         <p>Here are some of the projects I've been working on:</p>
         <!-- Add links or descriptions of your projects here -->
+    </section>
+
+    <section>
+        <h2>Connect with Me</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
+                <img src="linkedin-icon.png" alt="LinkedIn">
+            </a>
+            <!-- Add more social media links as needed -->
+        </div>
     </section>
 
     <footer>
